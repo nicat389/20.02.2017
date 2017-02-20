@@ -1,0 +1,136 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+width: calc(100% - 50px);
+margin: 0 auto;
+}
+
+.row{
+   width: 100%;
+   margin-top: 10px;
+}
+
+.first, .second, .third {
+    float: left;
+    width: 32.667%;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    
+    position: relative;
+}
+
+.first:hover{
+    box-shadow: 0 4px 10px #888888;
+}
+
+.second:hover{
+    box-shadow: 0 4px 10px #888888;
+}
+
+.third:hover{
+    box-shadow: 0 4px 10px #888888;
+}
+
+
+.row:nth-child(n+2)>.first, .row:nth-child(n+2)>.second, .row:nth-child(n+2)>.third{
+    margin-top: 30px;
+}
+
+ .second, .third{
+     margin-left: 10px;
+ }
+
+img{
+    height: 225px;
+    width: 100%;
+  
+}
+
+h1{
+    font-family: Calibri;
+    color: #13317F;
+    position: relative;
+    left: 15px;
+    width: 85%;
+}
+
+.socialButtons{
+    height: 40px;
+    width: 100%;
+    background: #dddddd;
+}
+
+.dateTime{
+
+left: auto;
+top: auto;
+position: absolute;
+left: auto;
+top: 0;
+}
+.dtOne, .dtTwo{
+
+width: 60px;
+
+opacity: 0.8;
+color: white;
+font-family: Calibri;
+height: 68px;
+text-align: center;
+
+}
+
+.dtOne{
+    height: 46px;
+    background: #1894A0;
+    font-size:20px;
+     
+}
+
+.dtTwo{
+   
+    height: 22px;
+    background: #334564;
+    font-size:14px;
+}
+
+.socialButtons>div{
+    float: left;
+    width: 33.0989%;
+    height: 40px;
+   
+ }
+
+ .socialButtons>div:first-child, .socialButtons>div:nth-child(2){
+
+  border-right: 1px solid gray;
+ }
+
+
+ .socialButtons>div:first-child:hover {
+background: #028F1D;
+transition: 1s;
+
+ }
+
+
+.socialButtons>div:nth-child(2):hover{
+    background: #D60808;
+ transition: 1s;
+}
+
+.socialButtons>div>span, .socialButtons>div>.fa{
+    color: gray;
+position: relative;
+   top:10px;
+}
+
+
+
+.socialButtons>div>.fa{
+    margin-left:30px;
+}
+
